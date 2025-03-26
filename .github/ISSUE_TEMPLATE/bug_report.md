@@ -16,8 +16,8 @@ Steps to reproduce the behaviour:
 
 **Environment**
 Please tell us about the VCF and SDK Environment. 
-Build Details: VCF Build/Version, VCF Component Product Build /Version (eg: vCenter 8.0.3.00400, 24322831)
-SDK Environment: SDK Versions (Release Tags), Java Version
+Build Details: VCF Build/Version, VCF Component Product Build/Version (eg: vCenter 8.0.3.00400, 24322831)
+SDK Environment: SDK Version (Release Tag), Python Version
 
 **Expected behaviour**
 A clear and concise description of what you expected to happen.
