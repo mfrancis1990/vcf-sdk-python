@@ -3,7 +3,7 @@ name: Bug report
 about: Create a report to help us improve
 title: ''
 labels: ''
-assignees: jobingeo
+assignees: vcf_python_sdk_maintainers
 
 ---
 
