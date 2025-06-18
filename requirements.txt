@@ -1,0 +1,8 @@
+pyvmomi==9.0.0.0
+vcf-installer==9.0.0.0
+vcf-sdk==9.0.0.0
+vmware-sddc-manager==9.0.0.0
+vmware-vapi-common-client==2.61.2
+vmware-vapi-runtime==2.61.2
+vmware-vcenter==9.0.0.0
+vmware-vsan-data-protection==9.0.0.0

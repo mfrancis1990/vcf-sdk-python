@@ -1,0 +1,5 @@
+pytest==3.9.1 # test is failing with latest 5.5.1 (https://github.com/pypa/setuptools/pull/1798)
+pycodestyle
+pexpect
+asn1crypto
+setuptools>=62.3.2
