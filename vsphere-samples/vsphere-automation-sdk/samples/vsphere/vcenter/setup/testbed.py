@@ -67,7 +67,7 @@ config["BACKENDS_DATASTORE_ROOT_PATH"] = "[{}] Sample_Backends".format(config["V
 config["DISK_DATACENTER_NAME"] = config["VM_DATACENTER_NAME"]
 config["DISK_DATASTORE_ROOT_PATH"] = config["BACKENDS_DATASTORE_ROOT_PATH"] + "/disk"
 
-config["ISO_SRC_URL"] = "https://packages.vcfd.broadcom.net/artifactory/vmlib-generic-virtual/exit15/home/ISO-Images/OS/Linux/Photon/5.0/GA/photon-5.0-dde71ec57.x86_64.iso"
+config["ISO_SRC_URL"] = "https://packages.vmware.com/photon/3.0/Rev3/iso/photon-minimal-3.0-a383732.iso"
 config["ISO_DATACENTER_NAME"] = config["VM_DATACENTER_NAME"]
 config["ISO_DATASTORE_ROOT_PATH"] = config["BACKENDS_DATASTORE_ROOT_PATH"] + "/iso"
 config["ISO_DATASTORE_PATH"] = config["ISO_DATASTORE_ROOT_PATH"] + "/photonOS.iso"
@@ -83,7 +83,7 @@ config["PARALLEL_PORT_DATACENTER_NAME"] = config["VM_DATACENTER_NAME"]
 config["PARALLEL_PORT_DATASTORE_ROOT_PATH"] = config["BACKENDS_DATASTORE_ROOT_PATH"] + "/parallel"
 config["PARALLEL_PORT_DATASTORE_PATH"] = config["PARALLEL_PORT_DATASTORE_ROOT_PATH"] + "/parallel.log"
 
-config["FLOPPY_SRC_URL"] = "https://usw5.packages.broadcom.com/ui/native/dp-lwd-generic-virtual/drs/hotplugbootimage/hotPlug.flp"
+config["FLOPPY_SRC_URL"] = "http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1.0/fdboot.img"
 config["FLOPPY_DATACENTER_NAME"] = config["VM_DATACENTER_NAME"]
 config["FLOPPY_DATASTORE_ROOT_PATH"] = config["BACKENDS_DATASTORE_ROOT_PATH"] + "/floppy"
 config["FLOPPY_DATASTORE_PATH"] = config["FLOPPY_DATASTORE_ROOT_PATH"] + "/fdboot.img"

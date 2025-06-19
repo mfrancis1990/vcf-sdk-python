@@ -19,7 +19,7 @@ samples require the vSphere Management SDK packages (pyVmomi) to be installed on
 The samples have been developed to work with python 3.9+
 
 ## Supported OnPrem vCenter Releases
-vCenter 7.0, 7.0U1, 7.0U2, 7.0U3 , 8.0, 8.0U1, 8.0U2, 8.0U3, 9.0
+vCenter 7.0, 7.0U1, 7.0U2, 7.0U3 , 8.0, 8.0U1, 8.0U2, 8.0U3, 9.0.0.0
 Please refer to the notes in each sample for detailed compatibility information.
 
 ## Quick Start Guide
@@ -48,7 +48,7 @@ Install/Update setuptools
 ```cmd
 pip install --upgrade setuptools
 ```
-Install SDK packages from Gitlab.
+Install SDK packages from GitHub.
 ```cmd
 pip install --upgrade git+https://github.com/vmware/vsphere-automation-sdk-python.git
 ```
@@ -99,8 +99,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 ## Run SDK Samples
 
-In this section we will walk you through the steps to run the sample code for vSphere 
-and VMware Cloud on AWS APIs. 
+In this section, we will walk you through the steps to run the sample code for vSphere.
 
 ### First, set PYTHONPATH to use SDK helper methods  
 
