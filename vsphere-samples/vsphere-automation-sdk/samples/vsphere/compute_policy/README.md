@@ -11,7 +11,7 @@ This directory contains samples for the Compute Policy APIs.
 - 1 vCenter server.
 - 1 cluster on the vCenter server with DRS enabled.
 - At least 2 hosts and 1 virtual machine in the cluster.
-- A tag that can be associated with virtual machines and a tag that can be associated with hosts. Please refer to the [tagging samples](https://gitlab-vmw.devops.broadcom.net/core-build/vsphere-automation-sdk-python/tree/cloud/samples/vsphere/tagging) for more information on creating categories, tags and tag associations.
+- A tag that can be associated with virtual machines and a tag that can be associated with hosts. Please refer to the [tagging samples](https://github.com/vmware/vsphere-automation-sdk-python/tree/master/samples/vsphere/tagging) for more information on creating categories, tags and tag associations.
 
 ## Running the sample for compute_policy_workflow.py
 ```
